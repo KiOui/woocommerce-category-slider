@@ -1,0 +1,28 @@
+.wcs-swiper-container {
+    width: 100%;
+    max-width: 100% !important;
+    overflow: hidden;
+}
+
+.wcs-swiper-container .swiper-wrapper {
+    width: 100%;
+}
+
+.wcs-swiper-container .swiper-slide {
+    max-width: 30%;
+    position: relative;
+}
+
+.wcs-swiper-container .category-wrapper {
+    display: flex;
+    flex-direction: column;
+}
+
+.wcs-swiper-container .swiper-slide img {
+    width: 100%;
+}
+
+.wcs-swiper-container h3 {
+    margin-top: 1rem;
+    margin-bottom: 0.5rem;
+}
