@@ -4,7 +4,7 @@ for (let i = 0; i < swiper_configs.length; i++) {
 		'#' + swiper_config.id,
 		{
 			spaceBetween: 20,
-			centeredSlides: true,
+			centeredSlides: false,
 			slidesPerView: 'auto',
 			navigation: {
 				nextEl: '.swiper-button-next',

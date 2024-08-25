@@ -137,9 +137,9 @@ if ( ! class_exists( 'WcsCore' ) ) {
 		}
 
 		/**
-		 * Add the Text slider shortcode.
+		 * Add the Category slider shortcode.
 		 */
-		public function add_shortcodes() {
+		public function add_shortcodes(): void {
 			add_shortcode( 'wcs_category_slider', array( $this, 'do_shortcode_slider' ) );
 		}
 

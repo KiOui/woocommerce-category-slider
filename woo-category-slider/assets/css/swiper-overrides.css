@@ -26,3 +26,9 @@
     margin-top: 1rem;
     margin-bottom: 0.5rem;
 }
+
+@media screen and (max-width: 992px) {
+    .wcs-swiper-container .swiper-slide {
+        max-width: 60%;
+    }
+}
